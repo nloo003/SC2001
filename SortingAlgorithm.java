@@ -1,6 +1,6 @@
 
 public class SortingAlgorithm {
-	public static final int S = 4;
+	public static final int S = 10;
 	private static long insertionSortComparisons = 0;
 	private static long mergeSortComparisons = 0;
 	private static long hybridSortComparisons = 0;
@@ -115,6 +115,7 @@ public class SortingAlgorithm {
 	public static void resetStatic() {
 		mergeSortComparisons = 0;
 		insertionSortComparisons=0;
+		hybridSortComparisons = 0;
 	}
 	public static void printMergeSortComparisons() {
 		
